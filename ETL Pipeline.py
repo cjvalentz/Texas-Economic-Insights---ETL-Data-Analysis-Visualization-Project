@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 from sqlalchemy import create_engine
 
-api_key = "9faba82510fbf04cdaef058a750f6f18c9d53495"
+api_key = ""
 
 pop_url = ("https://api.census.gov/data/2024/acs/acs5?get=NAME,B01003_001E&for=county:*&in=state:48&")
 
